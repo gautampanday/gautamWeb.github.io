@@ -7,7 +7,7 @@
   height: 80px;
 }
 .navbar-nav > li > a, .navbar-brand{
-  line-height: 50px;
+  padding: 0;
   height: 80px;
 }
 .text-white{
@@ -60,4 +60,50 @@
     color: #969595;
     font-family: roboto;
     font-size: 12px;
+}
+.logo{
+    height: 80px;
+}
+.right-menu{
+  padding-top: 30px; 
+}
+.right-menu li a{
+  padding-right: 15px;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.about-banner{
+  background: url(/images/aboutBanner.jpg) center center no-repeat;
+  height: 400px;
+}
+.display-table{
+  display: table;
+  height: 400px;
+  width: 100%;
+}
+.verticle-center{
+  display: table-cell;
+  vertical-align: middle;
+}
+hr.small {
+    max-width: 100px;
+    margin: 15px auto;
+    border-width: 4px;
+    border-color: #fff;
+}
+.subheading{
+  font-size: 24px;
+  line-height: 1.1;
+  display: block;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  margin: 10px 0 0
+}
+h1.about-heading {
+  font-size: 65px;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 800;
+}
+.text-red{
+  color: red;
 }
