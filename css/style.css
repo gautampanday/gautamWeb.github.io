@@ -1448,3 +1448,9 @@ label.btn1.btn2.btn-8.btn-8c {
 	float: none;
 }
 }
+
+
+
+a#resultTable_next {
+    float: right;
+}
